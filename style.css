@@ -1,0 +1,64 @@
+body {
+    font-family: 'Alef', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+}
+header .container, footer .container {
+    display: flex;
+    justify-content: space-between; /* Space between the site name and nav */
+    align-items: center;
+}
+header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+header h1 {
+    margin-left: 20px;
+}
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+.section p {
+    margin: 20px 0;
+}
+footer {
+    border-top: 1px solid #f0f0f0;
+}
+footer p {
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds some space between the image and the paragraph */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.portrait {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
