@@ -1,15 +1,19 @@
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <div className="bg-jet min-h-screen">
+    <div className="flex flex-col bg-jet min-h-screen">
       {/* Header here, includes Navbar */}
 
       {/* Home page, later Projects, Blog */}
-      <Home />
+      <main className="flex-grow">
+        <Home />
+      </main>
 
       {/* Footer component*/}
+      <Footer />
     </div>
   )
 }

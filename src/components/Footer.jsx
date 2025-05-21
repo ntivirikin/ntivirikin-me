@@ -1,10 +1,12 @@
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
-        <div>
-            <p className="read-the-docs">
-                Footer text here
-            </p>
-        </div>
+        <>
+            <footer className="text-center text-sm py-8">
+                {currentYear} Nazariy Tivirikin
+            </footer>
+        </>
     );
 }
 
